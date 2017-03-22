@@ -1,0 +1,4 @@
+---- m_nus Matches (3 in 1 files) ----
+main.c:static ble_nus_t                        m_nus;                                      /**< Structure to identify the Nordic UART Service. */
+main.c:    err_code = ble_nus_init(&m_nus, &nus_init);
+main.c:    ble_nus_on_ble_evt(&m_nus, p_ble_evt);

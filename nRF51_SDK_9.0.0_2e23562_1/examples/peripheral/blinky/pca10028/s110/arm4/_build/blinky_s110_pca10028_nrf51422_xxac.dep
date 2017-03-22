@@ -1,0 +1,49 @@
+Dependencies for Project 'blinky_s110_pca10028', Target 'nrf51422_xxac': (DO NOT MODIFY !)
+F (..\..\..\main.c)(0x559EF3D6)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\.. -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\softdevice\s110\headers -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DBLE_STACK_SUPPORT_REQD -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT-o .\_build\main.o --omf_browse .\_build\main.crf --depend .\_build\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_delay.h)(0x559EF3D4)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x559EF3DC)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x559EF3DC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x559EF3DE)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x559EF3DC)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x559EF3DE)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x559EF3DE)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_gpio.h)(0x559EF3D4)
+I (..\..\..\..\..\bsp\boards.h)(0x589A7344)
+I (..\..\..\..\..\bsp\pca10028.h)(0x589ACD94)
+F (..\..\..\..\..\..\components\toolchain\arm\arm_startup_nrf51.s)(0x559EF3DE)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "BLE_STACK_SUPPORT_REQD SETA 1" --pd "BSP_DEFINES_ONLY SETA 1" --pd "BOARD_PCA10028 SETA 1" --pd "S110 SETA 1" --pd "NRF51 SETA 1" --pd "SOFTDEVICE_PRESENT SETA 1"--list .\_build\arm_startup_nrf51.lst --xref -o .\_build\arm_startup_nrf51.o --depend .\_build\arm_startup_nrf51.d)
+F (..\..\..\..\..\..\components\toolchain\system_nrf51.c)(0x559EF3DE)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\.. -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\softdevice\s110\headers -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DBLE_STACK_SUPPORT_REQD -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT-o .\_build\system_nrf51.o --omf_browse .\_build\system_nrf51.crf --depend .\_build\system_nrf51.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x574E3E26)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x559EF3DC)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x559EF3DC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x559EF3DE)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x559EF3DC)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x559EF3DE)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x559EF3DE)
+F (..\..\..\Abstract.txt)(0x559EF3D6)()
+F (..\..\..\license.txt)(0x559EF3E8)()
+F (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_delay.c)(0x559EF3D4)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ..\..\.. -I ..\..\..\..\..\bsp -I ..\..\..\..\..\..\components\softdevice\s110\headers -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\device -I ..\..\..\..\..\..\components\toolchain -I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include --c99-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DBLE_STACK_SUPPORT_REQD -DBSP_DEFINES_ONLY -DBOARD_PCA10028 -DS110 -DNRF51 -DSOFTDEVICE_PRESENT-o .\_build\nrf_delay.o --omf_browse .\_build\nrf_delay.crf --depend .\_build\nrf_delay.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\..\..\..\..\..\components\device\compiler_abstraction.h)(0x559EF3DE)
+I (..\..\..\..\..\..\components\device\nrf.h)(0x559EF3DC)
+I (..\..\..\..\..\..\components\device\nrf51.h)(0x559EF3DC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm0.h)(0x5625B70C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmInstr.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\cmsis_armcc.h)(0x5625A350)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cmFunc.h)(0x5625A350)
+I (..\..\..\..\..\..\components\toolchain\system_nrf51.h)(0x559EF3DE)
+I (..\..\..\..\..\..\components\device\nrf51_bitfields.h)(0x559EF3DC)
+I (..\..\..\..\..\..\components\device\nrf51_deprecated.h)(0x559EF3DE)
+I (..\..\..\..\..\..\components\drivers_nrf\hal\nrf_delay.h)(0x559EF3D4)
+F (..\..\..\..\..\..\components\softdevice\s110\doc\s110_nrf51_8.0.0_licence-agreement.txt)(0x54EDC530)()

@@ -1,0 +1,8 @@
+--cpu Cortex-M0
+"..\..\..\..\..\..\components\softdevice\s110\hex\rtt_syscalls_keil.o"
+"..\..\..\..\..\..\components\softdevice\s110\hex\segger_rtt.o"
+"..\..\..\..\..\..\components\softdevice\s110\hex\segger_rtt_printf.o"
+--library_type=microlib --strict --scatter "..\..\..\..\..\..\components\softdevice\s110\hex\s110_softdevice.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\_build\s110_softdevice.map" -o ..\..\..\..\..\..\components\softdevice\s110\hex\s110_softdevice.hex

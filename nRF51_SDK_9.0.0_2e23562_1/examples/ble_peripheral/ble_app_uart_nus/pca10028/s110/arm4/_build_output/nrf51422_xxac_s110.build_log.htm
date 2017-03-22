@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: GGG GGG, GG, LIC=IC9SB-2A7I6-UK7B6-D3PRF-TU5XX-VS4UJ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.21a
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TARMCM1.DLL V1.10.0.0
+ 
+<h2>Project:</h2>
+D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart_nus\pca10028\s110\arm4\ble_app_uart_s110_pca10028.uvproj
+Project File Date:  12/08/2016
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build Project 'ble_app_uart_s110_pca10028' - Target 'nrf51422_xxac_s110'
+compiling app_trace.c...
+D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\components\libraries\trace\app_trace.c(28): warning:  #940-D: missing return statement at end of non-void function "app_get_heap_size"
+  }
+..\..\..\..\..\..\components\libraries\trace\app_trace.c: 1 warning, 0 errors
+compiling main.c...
+D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart_nus\main.c(524): error:  #20: identifier "SYS_WORK_INDICATE_PIN" is undefined
+      nrf_gpio_cfg_input(SYS_WORK_INDICATE_PIN, pin_pull_cfg);
+D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart_nus\main.c(520): warning:  #177-D: function "sys_work_indicate_init" was declared but never referenced
+  static void sys_work_indicate_init(void)
+..\..\..\main.c: 1 warning, 1 error
+".\_build_output\nrf51422_xxac_s110.axf" - 1 Error(s), 2 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

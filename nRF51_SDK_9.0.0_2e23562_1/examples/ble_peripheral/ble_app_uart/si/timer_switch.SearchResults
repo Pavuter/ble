@@ -1,0 +1,9 @@
+---- led_blue Matches (8 in 5 files) ----
+Ble_advertising.c (d:\user\pavut.wong\project\nrf51_sdk_9.0.0_2e23562_1\components\ble\ble_advertising):            led_set(led_blue, blink_fast);
+Bsp_btn_ble.c (d:\user\pavut.wong\project\nrf51_sdk_9.0.0_2e23562_1\examples\bsp):        led_set(led_blue, always_on); 
+Bsp_btn_ble.c (d:\user\pavut.wong\project\nrf51_sdk_9.0.0_2e23562_1\examples\bsp):        led_set(led_blue, blink_fast);
+Bsp_gpio_ble.c (d:\user\pavut.wong\project\nrf51_sdk_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user):xLedHandler led_blue, led_red, led3, led4;
+Bsp_gpio_ble.c (d:\user\pavut.wong\project\nrf51_sdk_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user):    led_blue = led_gpio_reg_with_param( led_ctrl_callback, add_pin(BSP_INIT_LED, LED_BLUE) );
+Led_handler.h (d:\user\pavut.wong\project\nrf51_sdk_9.0.0_2e23562_1\components\_general_lib\include):extern xLedHandler led_blue, led_red;
+Main.c (d:\user\pavut.wong\project\nrf51_sdk_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart):            led_set( led_blue, always_on );
+Main.c (d:\user\pavut.wong\project\nrf51_sdk_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart):            led_set( led_blue, always_off );

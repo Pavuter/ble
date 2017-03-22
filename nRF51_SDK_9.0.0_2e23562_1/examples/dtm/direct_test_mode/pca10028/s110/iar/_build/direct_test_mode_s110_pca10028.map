@@ -1,0 +1,236 @@
+###############################################################################
+#
+# IAR ELF Linker V7.70.2.11706/W32 for ARM                09/Jan/2017  16:57:28
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build\direct_test_mode_s110_pca10028.out
+#    Map file     =  
+#        D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build\direct_test_mode_s110_pca10028.map
+#    Command line =  
+#        D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build\ble_dtm.o
+#        D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build\iar_startup_nrf51.o
+#        D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build\main.o
+#        D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build\system_nrf51.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build\direct_test_mode_s110_pca10028.out
+#        --map
+#        D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build\direct_test_mode_s110_pca10028.map
+#        --config
+#        D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\direct_test_mode_iar_nrf51.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x00018000 { ro section .intvec };
+"P1":  place in [from 0x00018000 to 0x0003ffff] { ro };
+"P2":  place in [from 0x20002000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+ { section .intvec };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A0":                                      0xc0
+  .intvec            ro code  0x00018000   0xc0  iar_startup_nrf51.o [1]
+                            - 0x000180c0   0xc0
+
+"P1":                                     0x78b
+  .text              ro code  0x000180c0  0x428  ble_dtm.o [1]
+  .text              ro code  0x000184e8   0x28  memcmp.o [4]
+  .text              ro code  0x00018510   0x54  ABImemset.o [4]
+  .text              ro code  0x00018564   0x5c  ABImemcpy.o [4]
+  .text              ro code  0x000185c0   0xdc  main.o [1]
+  .text              ro code  0x0001869c   0x7c  system_nrf51.o [1]
+  .text              ro code  0x00018718   0x3c  packbits_init_single.o [4]
+  .text              ro code  0x00018754   0x2c  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018780   0x28  data_init.o [4]
+  .iar.init_table    const    0x000187a8   0x10  - Linker created -
+  .text              ro code  0x000187b8   0x1a  cmain.o [4]
+  .text              ro code  0x000187d2    0x8  exit.o [3]
+  .text              ro code  0x000187da    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x000187dc    0xa  cexit.o [4]
+  .text              ro code  0x000187e6    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x000187e8    0xc  XXexit.o [4]
+  .text              ro code  0x000187f4    0xc  cstartup_M.o [4]
+  .text              ro code  0x00018800    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018802    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018804    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018806    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018808    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001880a    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001880c    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001880e    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018810    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018812    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018814    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018816    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018818    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001881a    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001881c    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001881e    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018820    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018822    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018824    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018826    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018828    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001882a    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001882c    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x0001882e    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018830    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018832    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018834    0x2  iar_startup_nrf51.o [1]
+  .text              ro code  0x00018836    0x2  iar_startup_nrf51.o [1]
+  .rodata            const    0x00018838    0x0  packbits_init_single.o [4]
+  Initializer bytes  const    0x00018838   0x13  <for P2-1>
+                            - 0x0001884b  0x78b
+
+"P2", part 1 of 2:                         0x44
+  P2-1                        0x20002000   0x44  <Init block>
+    .data            inited   0x20002000   0x18  ble_dtm.o [1]
+    .data            inited   0x20002018    0x4  system_nrf51.o [1]
+    .bss             inited   0x2000201c   0x28  ble_dtm.o [1]
+                            - 0x20002044   0x44
+
+"P2", part 2 of 2:                        0x800
+  CSTACK                      0x20002048  0x800  <Block>
+    CSTACK           uninit   0x20002048  0x800  <Block tail>
+                            - 0x20002848  0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x13 (27% of destination):
+          0x00018838  0x13
+    1 destination range, total size 0x44:
+          0x20002000  0x44
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build: [1]
+    ble_dtm.o                 1 064       18       64
+    iar_startup_nrf51.o         296
+    main.o                      220
+    system_nrf51.o              124        1        4
+    -------------------------------------------------
+    Total:                    1 704       19       68
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    exit.o                        8
+    -------------------------------------------------
+    Total:                        8
+
+rt6M_tl.a: [4]
+    ABImemcpy.o                  92
+    ABImemset.o                  84
+    XXexit.o                     12
+    cexit.o                      10
+    cmain.o                      26
+    cstartup_M.o                 12
+    data_init.o                  40
+    memcmp.o                     40
+    packbits_init_single.o       60
+    -------------------------------------------------
+    Total:                      376
+
+    Linker created                        16    2 048
+-----------------------------------------------------
+    Grand Total:              2 088       35    2 116
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x000187a8          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x000187b8          --   Gb  - Linker created -
+?main                   0x000187b9         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x20002048          --   Gb  - Linker created -
+CSTACK$$Limit           0x20002848          --   Gb  - Linker created -
+Region$$Table$$Base     0x000187a8          --   Gb  - Linker created -
+Region$$Table$$Limit    0x000187b8          --   Gb  - Linker created -
+SystemCoreClock         0x20002018    0x4  Data  Gb  system_nrf51.o [1]
+SystemInit              0x0001869d   0x68  Code  Gb  system_nrf51.o [1]
+__Vectors               0x00018000          --   Gb  iar_startup_nrf51.o [1]
+__Vectors_End           0x000180c0         Data  Gb  iar_startup_nrf51.o [1]
+__Vectors_Size {Abs}    0x000000c0          --   Gb  iar_startup_nrf51.o [1]
+__aeabi_memclr4         0x00018561         Code  Gb  ABImemset.o [4]
+__aeabi_memclr8         0x00018561         Code  Gb  ABImemset.o [4]
+__aeabi_memcpy          0x00018565         Code  Gb  ABImemcpy.o [4]
+__aeabi_memset          0x00018511         Code  Gb  ABImemset.o [4]
+__cmain                 0x000187b9         Code  Gb  cmain.o [4]
+__exit                  0x000187e9         Code  Gb  XXexit.o [4]
+__iar_Memset4_word      0x00018531         Code  Gb  ABImemset.o [4]
+__iar_Memset_word       0x0001851d         Code  Gb  ABImemset.o [4]
+__iar_data_init3        0x00018781   0x28  Code  Gb  data_init.o [4]
+__iar_packbits_init_single3
+                        0x00018719   0x3c  Code  Gb  packbits_init_single.o [4]
+__iar_program_start     0x000187f5         Code  Gb  cstartup_M.o [4]
+__vector_table          0x00018000         Data  Gb  iar_startup_nrf51.o [1]
+_call_main              0x000187c5         Code  Gb  cmain.o [4]
+_exit                   0x000187dd         Code  Gb  cexit.o [4]
+_main                   0x000187cf         Code  Gb  cmain.o [4]
+dtm_cmd                 0x000182fd  0x114  Code  Gb  ble_dtm.o [1]
+dtm_event_get           0x0001841d   0x10  Code  Gb  ble_dtm.o [1]
+dtm_init                0x00018141   0xd0  Code  Gb  ble_dtm.o [1]
+dtm_set_timer           0x0001845d   0x30  Code  Gb  ble_dtm.o [1]
+dtm_set_txpower         0x00018435   0x1e  Code  Gb  ble_dtm.o [1]
+dtm_test_done           0x00018125   0x1c  Code  Lc  ble_dtm.o [1]
+dtm_wait                0x00018211   0xbe  Code  Gb  ble_dtm.o [1]
+exit                    0x000187d3    0x8  Code  Gb  exit.o [3]
+m_current_time          0x2000200c    0x4  Data  Lc  ble_dtm.o [1]
+m_event                 0x20002006    0x2  Data  Lc  ble_dtm.o [1]
+m_new_event             0x20002001    0x1  Data  Lc  ble_dtm.o [1]
+m_pdu                   0x2000201c   0x28  Data  Lc  ble_dtm.o [1]
+m_phys_ch               0x20002008    0x4  Data  Lc  ble_dtm.o [1]
+m_prbs_content          0x000184c0   0x28  Data  Lc  ble_dtm.o [1]
+m_rx_pkt_count          0x20002004    0x2  Data  Lc  ble_dtm.o [1]
+m_state                 0x20002000    0x1  Data  Lc  ble_dtm.o [1]
+m_timer_irq             0x20002002    0x1  Data  Lc  ble_dtm.o [1]
+m_tx_power              0x20002010    0x4  Data  Lc  ble_dtm.o [1]
+main                    0x000185c1   0xdc  Code  Gb  main.o [1]
+memcmp                  0x000184e9   0x28  Code  Gb  memcmp.o [4]
+mp_timer                0x20002014    0x4  Data  Lc  ble_dtm.o [1]
+radio_prepare           0x000180e9   0x3c  Code  Lc  ble_dtm.o [1]
+radio_reset             0x000180c1   0x28  Code  Lc  ble_dtm.o [1]
+
+
+[1] = D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build
+[2] = command line
+[3] = dl6M_tln.a
+[4] = rt6M_tl.a
+
+  2 088 bytes of readonly  code memory
+     35 bytes of readonly  data memory
+  2 116 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

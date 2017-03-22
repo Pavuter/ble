@@ -1,0 +1,13 @@
+"E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armproc.dll" 
+
+"E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armjlink2.dll" 
+
+"D:\Users\pavut.wong\WorkSpace\Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\dtm\direct_test_mode\pca10028\s110\iar\_build\direct_test_mode_s110_pca10028.out" 
+
+--plugin "E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armbat.dll" 
+
+--flash_loader "E:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\config\flashloader\NordicSemi\FlashNRF51822.board" 
+
+
+
+

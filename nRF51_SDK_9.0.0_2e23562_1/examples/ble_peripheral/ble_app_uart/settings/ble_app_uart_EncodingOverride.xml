@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<userOverrides>
+  <override>
+    <path>C:\Users\pavut.wong\Desktop\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\bsp_gpio_ble.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>C:\Users\wangfeng\Desktop\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\app_calendar.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>C:\Users\wangfeng\Desktop\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\bsp_gpio_ble.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\components\_general_lib\common\led_handler.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\app_calendar.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\app_timing.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\app_timing.h</path>
+    <encoding>Win-1252</encoding>
+  </override>
+  <override>
+    <path>D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\bsp_gpio_ble.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\data_manager.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\ptl_lowlayer.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\User\pavut.wong\Project\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\ptl_midlayer.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Users\pavut.wong\WorkSpace\chip_Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\app_calendar.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Users\pavut.wong\WorkSpace\chip_Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\app_calender.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>D:\Users\pavut.wong\WorkSpace\chip_Nordic\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\app_calender.h</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>I:\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\bsp_gpio_ble.c</path>
+    <encoding>System</encoding>
+  </override>
+  <override>
+    <path>Z:\nRF51_SDK_9.0.0_2e23562_1\examples\ble_peripheral\ble_app_uart\user\app_timing.c</path>
+    <encoding>System</encoding>
+  </override>
+</userOverrides>
+
+
